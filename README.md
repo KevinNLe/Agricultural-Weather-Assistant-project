@@ -2,26 +2,40 @@
 
 Co-Founders: Kevin Le & Ethan Park
 
-The Agricultural Weather Assistant is a smart, data-driven tool designed to help farmers make better decisions by transforming complex weather and environmental data into simple, actionable insights. Our goal is to support agricultural communities with clearer guidance, improved planning, and more sustainable outcomes.
+The Agricultural Weather Assistant is a tool we built to help farmers make smarter, easier decisions by turning complicated weather data into simple insights they can actually use. Instead of having to sort through temperature charts, rainfall numbers, and humidity levels on their own, this system does the heavy lifting and presents the information in a way that makes sense.
 
 🚜 What It Does
-- The system collects and analyzes key environmental data—including temperature, rainfall, humidity, wind speed, and soil moisture—from sources such as:
-- Weather Data
-- IoT sensors
-- Using this data, the tool generates easy-to-understand recommendations for important farming activities, such as:
-- Optimal irrigation timing
-- Planting and harvesting windows
-- Frost or heat-risk alerts
-- Soil health insights
+- We collect key weather data—like temperature, humidity, rainfall, and wind speed—from datasets and IoT sensors. Then, using our code, we calculate daily hazard levels based on those conditions. This helps farmers understand when the weather might pose risks to their crops.
+
+- Temperature & Humidity Over Time: Shows how these conditions changed throughout the past month in Charlotte.
+
+- Rainfall & Wind Speed Trends: Helps us see patterns in weather behavior and how they connect to potential risks.
+
+- Daily Risk Analysis: Displays the danger levels for temperature, humidity, and wind speed. The orange line shows the total risk score each day, combining all three factors on a 0–100 scale.
 
 🌦️ Why It Matters
-- Farmers often deal with unpredictable weather and overwhelming data. The Agricultural Weather Assistant simplifies all of that, helping farmers reduce risk, save time, and make confident decisions that directly impact crop health and productivity.
+- Farmers deal with unpredictable weather every single day, and managing that uncertainty can be stressful. Our goal is to turn overwhelming data into helpful guidance—things like:
+
+- When to irrigate
+
+- The best times to plant or harvest
+
+- Alerts for heat, frost, or strong winds
+
+- Early signs of conditions that might harm crops
 
 🛠️ Technologies Used
+- VS Code
+- JavaScript
+- CSS 
 - React.js
-- Weather data 
-- IoT sensor integration
-- Data analytics & visualization tools
+- Weather data sources
+- Data analytics & visualization
 
-🚧 Project Status
-- Actively in development with ongoing improvements to data accuracy, user interface, and automated insights.
+
+SOURCES: 
+Charlotte, NC Weather History | Weather Underground. (2025). Wunderground.com. https://www.wunderground.com/history/monthly/us/nc/charlotte/KCLT/date/2025-11
+
+Here’s how farmers in the Carolinas are dealing with unpredictable weather. (2025). Spectrumlocalnews.com. https://spectrumlocalnews.com/nc/charlotte/news/2025/08/22/farmers-dealing-with-summer-weather
+
+Occupational Safety and Health Administration. (n.d.). Agricultural Operations - Hazards & Controls | Occupational Safety and Health Administration. Www.osha.gov. https://www.osha.gov/agricultural-operations/hazards
