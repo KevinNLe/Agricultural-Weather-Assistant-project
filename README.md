@@ -34,6 +34,7 @@ The Agricultural Weather Assistant is a tool we built to help farmers make smart
 
 
 SOURCES: 
+
 Charlotte, NC Weather History | Weather Underground. (2025). Wunderground.com. https://www.wunderground.com/history/monthly/us/nc/charlotte/KCLT/date/2025-11
 
 Here’s how farmers in the Carolinas are dealing with unpredictable weather. (2025). Spectrumlocalnews.com. https://spectrumlocalnews.com/nc/charlotte/news/2025/08/22/farmers-dealing-with-summer-weather
